@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Sort extends Operator
 {
-
+	private ArrayList<Attribute> newAttributeList;
 	private String orderPredicate;
 	ArrayList<Tuple> tuplesResult;
 
